@@ -1,0 +1,40 @@
+HTML etch a sketch 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="pragma" content="no-cache" /
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="theCss.css">
+
+
+    <title>Etch-a-Sketch</title>
+
+</head>
+<body>
+
+<div class="grid">
+    <header><h1>Etch-A-Sketch Project</h1></header>
+    <nav>
+        <ul>
+            <li><button id = 'newGridButton'>New Grid</button></li>
+            <li><button id = 'pencilButton'>Shaded Grid</button></li>
+            <li><button id = 'colorfulButton'>Coloured Grid</button></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="gridContainer"></div>
+    </main>
+    <aside>
+        <p>A square grid of square divs created using JavaScript and CSS Grid.</p>
+        <p>this is an attempt to understand how to work with js....on a considerable project.</p>
+        <p>shaded Grid darkens the grid square by 10%, 10 strokes and your done :D. Coloured Grid colors the grid with a random color.</p>
+    </aside>
+    <footer>Created as part of <a href ="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">The Odin Project Web Development 101 Curriculum.</a></footer>
+</div>
+    <script type="text/javascript" src="thejs.js"></script>
+</body>
+
+
+</html>
+

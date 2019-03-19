@@ -17,3 +17,6 @@ this is a 3 day project.... 16 - 19 march!
 do this in 2 goes..
 first a copy of someone elses work, and then one by me to appreciate the how to do it.
 
+
+how to get the file onto Heroku
+https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b

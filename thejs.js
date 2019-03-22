@@ -54,13 +54,14 @@ function clearGrid(){
         gridContainer.removeChild(gridContainer.firstChild);
     }
 }
+while(gridContainer.)
 
 
 createGrid(16);
 
 
 
-
+//buttons
 const newGridButton = document.getElementById('newGridButton');
 newGridButton.addEventListener('click', function(e){
     clearGrid();
@@ -82,3 +83,5 @@ colorfulButton.addEventListener('click', function(e){
     let newSize = prompt('New Grid Size')
     colorfulGrid(newSize);
 });
+
+

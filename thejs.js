@@ -54,7 +54,6 @@ function clearGrid(){
         gridContainer.removeChild(gridContainer.firstChild);
     }
 }
-while(gridContainer.)
 
 
 createGrid(16);

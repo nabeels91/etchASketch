@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    /* background-color: silver; */
+    
+}
+
+.columns:hover {
+    /* cursor: pointer; */
+    background-color: red;
+}
+

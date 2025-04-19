@@ -49,6 +49,6 @@ inputTag.addEventListener("keydown", (e)=>{
     alert(`you chose the grid to be ${userInput} x ${userInput}`);
     gridSize(userInput);
     }
-})
+});
 
 

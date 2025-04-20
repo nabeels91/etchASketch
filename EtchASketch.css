@@ -1,16 +1,23 @@
 h1 {
     color: blue;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
-    /* background-color: silver; */
+    justify-content: center;
+    
     
 }
 
 .columns:hover {
-    /* cursor: pointer; */
-    background-color: red;
+    cursor: pointer;
+
 }
 
 
+.inputs{
+    display: flex;
+    justify-content: center;
+}

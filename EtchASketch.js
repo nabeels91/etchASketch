@@ -23,16 +23,15 @@ function gridSize(n){
             rows.append(columns);
 
             columns.addEventListener("mouseover", function() {
-                let currentOpac = parseFloat(this.getAttribute('data-opacity')) || 0;
+                let currentOpac = parseFloat(this.getAttribute('opac')) || 0;
                 currentOpac = Math.min(currentOpac + 0.1, 1);
-                this.setAttribute('data-opacity', currentOpac);
+                this.setAttribute('opac', currentOpac);
                 
 
-                this.style.backgroundColor = `rgba(255, 0, 0, ${currentOpac})`;
+                this.style.backgroundColor = `rgba(200, 0, 0, ${currentOpac})`;
             });
         }  
     }
-    
 }
 
 button.addEventListener("click", ()=>{

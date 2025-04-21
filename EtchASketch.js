@@ -4,6 +4,7 @@ const button = document.querySelector("button");
 const containerS = document.querySelector(".container");
 let userInput ="";
 let columns = '';
+
 function gridSize(n){
     let gSize=parseInt(n);
     containerS.innerHTML ="";
@@ -33,12 +34,6 @@ function gridSize(n){
     }
     
 }
-
-function colourCells(){
-   
-
-}
-
 
 button.addEventListener("click", ()=>{
     
